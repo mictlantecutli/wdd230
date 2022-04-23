@@ -10,10 +10,17 @@ body {
 }
 
 header, main, footer {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   border-radius: 5px 5px 5px 5px;
 }
+
+main hr{
+  height: 1px;
+  background-color: #888;
+  border: 0;
+}
+
 
 header {
   margin: 1.5rem auto;
@@ -38,12 +45,16 @@ header img{
 }
 
 header h1 {
- 
+  text-shadow: 0 0 20px #777;
   margin:0 auto;
 }
 
+h2{
+  text-shadow: 0 0 20px #777;
+}
+
 header h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 body ul li{
@@ -69,5 +80,12 @@ footer p{
 footer legend{
   color: darkorange;
 }
+
+.time_updated{
+  text-align: center;
+  color: darkorange;
+
+}
+
 
 
