@@ -7,6 +7,7 @@ main, header, footer {
 	font-size: 0.8rem;
 }
 
+
 header,footer{
   background-color: black;
   color: #bbb;
@@ -14,6 +15,7 @@ header,footer{
 
 header h1, h2{
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
 }
 
 main h3{
