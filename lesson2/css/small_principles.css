@@ -1,4 +1,4 @@
-
+/* This is for phone*/
 main, header, footer {
 	max-width: 900px;
 	margin: 0 auto;
@@ -48,7 +48,7 @@ main section picture img{
   height: auto;
 }
 
-
+/* This is for tablet views*/
 @media only screen and (min-width: 37.5em) {
 	main {
 		grid-template-columns: 1fr 1fr;
