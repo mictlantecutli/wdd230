@@ -13,6 +13,36 @@
   main section:nth-child(3){
     grid-column: span 1;
   }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  main h3{
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: yellow;
+  }
+
+  main p{
+    font-size: 15px;
+  }
+
+  footer{
+    
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  footer span{
+    display: inline;
+  }
+
+  
 }
 
 

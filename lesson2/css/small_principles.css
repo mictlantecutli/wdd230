@@ -1,10 +1,15 @@
 /* This is for phone*/
-main, header, footer {
+main, header{
 	max-width: 900px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+}
+
+footer{
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 
@@ -15,19 +20,25 @@ header,footer{
 
 header h1, h2{
   text-align: center;
-  font-family: 'Varela Round', sans-serif;
+ 
 }
 
 main h3{
+	text-align: center;
   background-color: yellow;
+	font-size: 1rem;
  
+}
+main p{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
 }
 
 section{
   border-radius: 5px 5px 0 0;
 }
 
-footer p{
+footer {
   text-align: center;
 }
 
