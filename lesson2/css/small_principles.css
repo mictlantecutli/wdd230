@@ -5,11 +5,13 @@ main, header{
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+	padding: 1em;
 }
 
 footer{
 	max-width: 900px;
 	margin: 0 auto;
+	padding: 1em;
 }
 
 
