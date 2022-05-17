@@ -7,14 +7,21 @@ document.querySelector(".year").innerHTML = `${current_date.getFullYear()}`
 document.querySelector(".date_updated").innerHTML = `last updated: ${document.lastModified}`
 
 //This code is for the date in the header
-//const datefield = document.querySelector(".date");
-//const now = new Date();
-//const fulldate = new Intl.DateTimeFormat("en-US", {
-//  dateStyle: "full"}).format(now);
-//datefield.innerHTML = `<em>${fulldate}</em>`;
+const datefield = document.querySelector("#date");
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", {
+  dateStyle: "full"
+}).format(now);
+datefield.innerHTML = `<em>${fulldate}</em>`;
 
 //This code for the hamburger menu
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+const hambutton = document.querySelector('#ham');
+const mainnav = document.querySelector('nav')
+
+hambutton.addEventListener("click", function(){
+  
+  mainnav.classList.toggle("responsive")
+});
+

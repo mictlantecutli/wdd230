@@ -10,6 +10,15 @@
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Varela+Round&display=swap"
+    rel="stylesheet">
   <title>Chamber</title>
 </head>
 
@@ -43,7 +52,9 @@
         </g>
       </svg>
     </div>
-    <button class="ham" href="#">Menu</button>
+    <button id="ham">
+      <span>&#9776;</span>
+    </button>
     <nav>
       <ul class="navigation">
         <li><a href="#">Home</a></li>
@@ -53,21 +64,22 @@
       </ul>
     </nav>
 
-    <div class="header2">
-
-    </div>
+    <div id="date"></div>
   </header>
   <main>
-    <div class="box-holder one">1</div>
-    <div class="box-holder two">2</div>
-    <div class="box-holder three">3</div>
-    <div class="box-holder four">4</div>
-    <div class="box-holder five">5</div>
-    <div class="box-holder-spotlight">
-      <div class="spotlight"></div>
-      <div class="spotlight"></div>
-      <div class="spotlight"></div>
+    <div class="holder two"><h2>hero with site name and call to action</h2></div>
+    <div class="holder one"><h2>event</h2></div>
+    <div class="holder four"><h2>weather</h2></div>
+    <div class="holder six"><h2>news release</h2></div>
+
+    <div class="holderspot three">
+      <div class="sub section1 "><h2>spotlight1</h2></div>
+      <div class="sub section2"><h2>spotlight2</h2></div>
+      <div class="sub section3"><h2>spotlight3</h2></div>
     </div>
+
+    <div class="holder five"><h2>join</h2></div>
+
 
   </main>
   <footer>
@@ -76,13 +88,16 @@
         <img src="images/logo_chamber_crop.jpg" alt="">
 
         <section class="direction">
-          <p class="text_dir">Humberto Velasco Avilés #100</p>
+          <p class="text_dir">Humberto Velasco Avilés #100, Forjadores de Pachuca, Hidalgo, México, 42085
+          </p>
         </section>
       </div>
 
 
       <div class=contacto>
-        <p>7716999413</p>
+        <p>info@seed.com
+          +(52) 7716 99 9413
+          📍 Map</p>
       </div>
     </div>
 
