@@ -25,3 +25,6 @@ hambutton.addEventListener("click", function(){
   mainnav.classList.toggle("responsive")
 });
 
+const banner = document.querySelector(".two");
+banner.style.display = "block";
+banner.style.backgroundImage = "url('https://placekitten.com/800/100')";

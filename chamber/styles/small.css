@@ -34,19 +34,104 @@ main{
 	display: block;
 }
 
+
 .holder{
 	width: auto;
 	height: 15rem;
 	border-radius: 5px;
-	background-color: rgb(207,232,220);
-	padding: 1em;
+	background-color: #156acb;
 	margin: 0.5rem;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: 0.9;
 }
+
+.holder p, h2{
+
+	text-align: center;
+}
+
+.five{
+	position: relative;
+}
+
+.five p{
+	margin-top: 50px;
+	
+}
+
+.join_btn{	
+	width: 100px;
+	left: 50%;
+	top: 1em;
+	margin-left: -50px;
+	position: absolute;
+	box-shadow: 0 0 30px #333;
+	background-color: #E7BF0A;
+	border-radius: 5px;
+}
+
+.join_btn span{
+	font-size: 30px;
+
+}
+
+.two{
+	position: relative;
+}
+
+.two img{
+	width: 200%;
+	height: 100%;
+
+
+}
+
+.weather{
+	line-height: 15px;
+}
+
+.weather div{
+	display: flex;
+	align-items: center;
+}
+
+
+
+.btn_main{
+	position:absolute;
+	box-shadow: 0 0 30px rgb(236, 234, 234);
+	background-color: #E7BF0A;
+	border-radius: 5px;
+	top: 400px;
+	left: 200px;
+}
+
+.btn_main h3{
+	padding: .5em;
+
+	font-size: 20px;
+}
+
+
+.two h2{
+	position:absolute;
+
+	right: 50%;
+	margin-left: 226px;
+
+}
+
+
+
+
+
+
 
 
 .holderspot{
 	border-radius: 5px;
-	background-color: rgb(207,232,220);
+	background-color: #0f5bb1;
 	padding: .5em;
 	margin: 0.5rem;
 }
@@ -54,9 +139,11 @@ main{
 .sub{	
 	height: 12em;
 	border-radius: 5px;
-	background-color: rgb(6, 188, 100);
-	padding: 1em;
-	margin: 5px;
+	background-color: #156acb;
+	margin: 0.5rem;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: 0.9;
 }
 
 
@@ -136,7 +223,7 @@ nav {
 
 	text-align: center;
 	height: 4rem;
-	background-color: #0E53A2;
+	background-color: #d59107;
 }
 
 
@@ -178,10 +265,6 @@ nav {
 	list-style: none;
 	padding: 0;
 }
-
-
-
-
 
 .copy {
 	margin: 0 10px;
