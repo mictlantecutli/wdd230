@@ -36,6 +36,11 @@
     grid-column: 1/2;
     grid-row: 3/4;
   }
+
+  .five p{
+    margin-top: 0;
+    margin-left: 0;
+  }
   
   .six{
     grid-column: 2/4;
@@ -80,6 +85,33 @@
     display: flex;
   
   }
+
+  .join_btn {
+    width: 100px;
+    left: 50%;
+    top: 1.5em;
+    
+  }
+  
+  .join_btn span {
+    margin-left: 0;
+    font-size: 30px;
+  
+  }
+
+  .btn_main {
+   
+    top: 400px;
+    left: 200px;
+  }
+  
+  .btn_main h3 {
+    font-size: 20px;
+  }
+  
+  
+
+  
 
 
 

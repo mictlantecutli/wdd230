@@ -25,6 +25,22 @@ hambutton.addEventListener("click", function(){
   mainnav.classList.toggle("responsive")
 });
 
+
 const banner = document.querySelector(".two");
 banner.style.display = "block";
-banner.style.backgroundImage = "url('https://placekitten.com/800/100')";
+banner.style.backgroundImage = "url('https://mictlantecutli.github.io/wdd230/chamber/images/plantita_business.jpg')";
+
+let d = new Date().getDay();
+const pop = document.querySelector(".pop");
+if (d === 1 || d === 2){
+  pop.style.display = "block"
+
+}
+
+const close = document.querySelector(".close");
+close.addEventListener("click", () => {
+  pop.style.display = "none";
+  
+})
+
+

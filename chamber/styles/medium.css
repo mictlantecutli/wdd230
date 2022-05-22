@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+ 
   
   }
 
@@ -20,12 +21,27 @@
     
   }
 
+  .five p{
+    margin-top: 7em;
+    margin-left: 5em;
+
+  }
+
   
 
   .two{
     grid-column: 1/5;
     grid-row: 1/2;
   }
+
+  .two h2 {
+    position: absolute;
+    margin-left: 0px;
+    font-size: 40px;
+  
+  }
+
+  
 
   .six{
     grid-column: 1/5;
@@ -40,11 +56,9 @@
   
   }
 
-  .five{
-    display: block;
-    grid-column: 1/5;
-    grid-row: 4/5;
-  }
+ 
+
+
 
   .one{
     grid-column: 1/4;
@@ -67,12 +81,27 @@
     align-items: center;
   }
 
- 
+  .join_btn {
+  
+    top: 2em;
+   
+  }
+  
+  .five p{
+	
+    font-size: 16px;
+  }
 
 
+  .five {
+    grid-column: 1/5;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
 
 
-
+  
 
 
 
