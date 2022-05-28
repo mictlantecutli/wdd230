@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+/*This code is for the header and footer and the body*/
 body {
 	max-width: 960px;
 	margin: 0 auto;
@@ -30,173 +31,165 @@ nav {
 	font-family: 'Varela Round', sans-serif;
 }
 
-main {
-	display: block;
-}
+/*Here I start with the main part of the web page */
 
 
 .holder {
-	width: auto;
-	height: 15rem;
-	border-radius: 5px;
-	background-color: #156acb;
-	margin: 0.5rem;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
-	opacity: 0.9;
-}
-
-.holder p,
-h2 {
-
-	text-align: center;
-}
-
-
-
-.five {
 	
-	display: none;
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
 
-}
-
-
-.six {
-	position: relative;
-}
-
-.six p{
-	position: absolute;
-	top: 35%;
-	left: 5px;
-
-
-}
-
-
-
-.weather .border_above {
-	border-top: 1px solid black;
-}
-
-
-
-
-.two {
-	position: relative;
-}
-
-.two {
-	background-image: url(star.png);
-	background-repeat: no-repeat;
-
-	background-size: cover;
-
-}
-
-.weather {
-	line-height: 20px;
-
-}
-
-.weather div {
-	display: flex;
-	align-items: center;
-}
-
-.three img {
-	display: block;
-	width: 50%;
-	margin: 0 auto;
-}
-
-.sub {
+	padding: 7px;
 	text-align: center;
+	
+}
+
+.hero {
+	padding: 0px;
 }
 
 
-.division_line {
-	padding-top: 5px;
-	border-top: 1px solid black;
+.hero {
+	position: relative;
 }
 
-
-
-.two h2 {
+.hero h2 {
 	position: absolute;
-	right: 50%;
-	margin-left: 226px;
+	top: 60px;
+	left: 100px;
+}
+
+.hero .btn_main {
 	font-size: 30px;
-
-}
-
-.btn_main {
+	background-color: #f7c72b;
+	border: 1px solid #32292f;
+	padding: 7px;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	border-radius: 5px 5px 5px 5px;
 	position: absolute;
-	box-shadow: 0 0 30px rgb(236, 234, 234);
-	background-color: #E7BF0A;
-	border-radius: 5px;
-	top: 150px;
-	left: 35%;
+	bottom: 70px;
+	left: 200px;
 }
 
-.btn_main h3 {
-	padding: .5em;
-
-	font-size: 25px;
+.hero picture img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
-.join_btn {
-	width: 300px;
-	left: 35%;
-	top: 10em;
-	margin-left: -50px;
-	position: absolute;
-	box-shadow: 0 0 30px #333;
-	background-color: #E7BF0A;
-	border-radius: 5px;
-}
 
-.join_btn span {
-	margin-left: 27%;
-	font-size: 50px;
-
-}
-
+/**This is for the advertisments of the right side**/
 
 .holderspot {
-	border-radius: 5px;
-	background-color: #0f5bb1;
-	padding: .5em;
-	margin: 0.5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 100%;
+	grid-row: 5/7;
+
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+
+
 }
 
-.sub {
-	height: 25em;
-	border-radius: 5px;
-	background-color: #156acb;
-	margin: 0.5rem;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
-	opacity: 0.9;
+.holderspot div {
+
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	padding: 10px;
+	text-align: center;
+
+
+
 }
 
+.holderspot img {
+	width: 50%;
+}
 
-.section3 {
+.holderspot .spot3 {
 	display: none;
 }
 
 
 
+/**End of the advertisments of the right side**/
+
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+
+	padding: 20px;
+}
+
+.event {
+	display: block;
+
+}
+
+.hero {
+	display: block;
+}
+
+.hero picture img {
+	width: 100%;
+}
+
+
+
+.weather {
+	display: block;
+}
+
+.join {
+	display: none;
+}
+
+.news {
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*This code is for the header*/
 header {
 	display: grid;
-	grid-template-columns: max-content 1fr min-content;
-	height: fit-content;
-
+	grid-template-columns: 230px 1fr 70px 70px;
+	gap: 20px;
 
 }
 
 header img {
-
 	grid-column: 1/2;
 	grid-row: 1;
 	width: 80%;
@@ -205,7 +198,7 @@ header img {
 
 #ham {
 	display: grid;
-	grid-column: 3/4;
+	grid-column: 4/5;
 	background-color: transparent;
 	align-content: center;
 	border: none;
@@ -213,14 +206,12 @@ header img {
 	margin: 2rem 2vw;
 }
 
-
 nav {
 	display: none;
 
 }
 
-
-
+/*This is the class changed when the user click in ham button*/
 .responsive {
 	display: grid;
 	grid-column: 1/4;
@@ -228,18 +219,15 @@ nav {
 	text-align: center;
 }
 
-
-
 .socials {
-	grid-column: 2/3;
+	grid-column: 3/4;
 	grid-row: 1;
 	display: flex;
+	justify-content: right;
 
 }
 
-
 .socials svg {
-
 	margin-right: 5px;
 	width: 40px;
 
@@ -249,7 +237,7 @@ nav {
 	padding: 1em;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
-	grid-column: 1/4;
+	grid-column: 1/5;
 	color: #ffe5ae;
 
 	text-align: center;
@@ -306,7 +294,7 @@ nav {
 
 .pop {
 	display: none;
-	
+
 	padding: .5em;
 	grid-column: 1/4;
 	color: #020202;
@@ -314,7 +302,7 @@ nav {
 	background-color: #b1b0ad;
 }
 
-.close{
+.close {
 	width: 2em;
 	background-color: white;
 	color: red;
