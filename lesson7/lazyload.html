@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="lazy.css">
+</head>
+
+<body>
+  <h1>Progressive loading(images)</h1>
+  <div class="images">
+    <picture><img src="http://placehold.jp/11ff00/ffffff/300x400.png?text=placeholder" data-src="images/bike_colors.jpg" alt="bike image"></picture>
+    <picture><img src="http://placehold.jp/11ff00/ffffff/300x400.png?text=placeholder" data-src="images/fog_forest.jpg" alt="fog in the forest"></picture>
+    <picture><img src="http://placehold.jp/11ff00/ffffff/300x400.png?text=placeholder" data-src="images/moon.jpg" alt="beautiful moon"></picture>
+    <picture><img src="http://placehold.jp/11ff00/ffffff/300x400.png?text=placeholder" data-src="images/night_forest.jpg" alt="night in the forest"></picture>
+    <picture><img src="http://placehold.jp/11ff00/ffffff/300x400.png?text=placeholder" data-src="images/plants_shadow.jpg" alt="plants in the shadow"></picture>
+    <picture><img class="last_image" src="http://placehold.jp/11ff00/ffffff/300x400.png?text=placeholder" data-src="images/wewe_mexican.jpg" alt="mexican tradition"></picture>
+  </div>
+
+  <script src="lazy.js"></script>
+</body>
+
+
+</html>
