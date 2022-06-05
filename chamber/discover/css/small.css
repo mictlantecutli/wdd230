@@ -39,7 +39,6 @@ nav {
 	border: 1px solid #32292f;
 	background-color: #ffffff;
 	box-shadow: 3px 3px 10px rgb(54 54 54);
-
 	padding: 7px;
 	text-align: center;
 
@@ -91,9 +90,6 @@ main div {
 	border: 1px solid #32292f;
 	background-color: #ffffff;
 	box-shadow: 3px 3px 10px rgb(54 54 54);
-
-
-
 }
 
 .holderspot div {
@@ -108,7 +104,8 @@ main div {
 }
 
 .holderspot img {
-	width: 50%;
+	
+	width: 100%;
 }
 
 .holderspot .spot3 {
@@ -131,14 +128,16 @@ main {
 }
 
 
-
-.hero {
+.holder{
 	display: block;
 }
 
-.hero picture img {
+.holder img{
 	width: 100%;
 }
+
+
+
 
 
 /*This is the weather section*/
@@ -150,7 +149,7 @@ main {
 }
 
 .weather .border_above{
-	border-top: 1px solid black;
+	border-top: 1px solid rgb(128, 125, 125);
   padding-top: 30px;
 }
 
@@ -208,6 +207,17 @@ main {
 	display: block;
 	
 }
+
+
+/******************************************************/
+/*******This is the code for DISCOVER web page*********/
+/******************************************************/
+
+
+
+
+
+
 
 
 

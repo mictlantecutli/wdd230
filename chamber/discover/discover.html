@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="This web page will be the home page">
   <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/small.css">
-  <link rel="stylesheet" href="styles/medium.css">
-  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
@@ -72,95 +72,100 @@
 
   <!--Main-->
   <main>
-    <div class="holder hero">
+    <div class="holder demography1">
       <picture class="hero_imgs">
-        <source srcset="images/hero2.jpg" media="(min-width: 640px) and (max-width: 959px)">
-        <source srcset="images/hero3.jpg" media="(min-width: 960px)">
-        <img src="images/hero1.jpg" alt="people in a meeting">
+        <img src="images/men_women.png" alt="people in a meeting">
       </picture>
-
-      <h2>Welcome to Seed</h2>
-
-      <div class="btn_main">
-        <span>Join the chamber</span>
-      </div>
-
     </div>
 
-    <div class="holder event">
-      <h2>Ribbon Cutting</h2>
-      <h3>💎 The Diamond Shack</h3>
+    <div class="holder demography2">
+      <picture class="hero_imgs">
+        <img src="images/table_gender.jpg" alt="gendere population"> 
+      </picture>
+    </div>
 
-      <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m. <span>more info...</span></p>
-
+    <div class="holder demography3">
+      <picture class="hero_imgs">
+        <img src="images/indigenous_language.jpg" alt="gendere population"> 
+      </picture>
     </div>
 
 
-    <div class="holder weather">
-      <img src="images/clima.png" alt="weather icon">
-      <span id="temp">7.7 ºC</span>
-      <p class="border_above">Wind speed: <span id="speed">8.04</span> km/hr</p>
-      <p>Wind chill: <span id="chill">N/A</span></p>
+    <div class="holder">
+      <h2>Local Storage</h2>
+      <p>Visits: <span class="visits"></span></p>
+      <p>Today: <span class="today"></span></p>
     </div>
 
 
-    <div class="holder news">
-      <h2>news release</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et delectus quasi doloremque, natus ea, doloribus,
-        debitis vero repudiandae sit laborum dolores? Saepe veniam aut ducimus?
-      </p>
-
-    </div>
 
 
     <div class="holderspot spot">
       <div class="spot1">
         <h2>Thankful transport</h2>
 
-        <img src="images/transport.png" alt="logo of transport">
+        <img src ="images/place_holder.jpg" data-src="images/RelojPachucaAtardecer_crop.jpg" alt="center of Pachuca">
 
         <p class="division_line">We get it there for you!!</p>
-        <p>hello@thankfultransport.com</p>
-        <p>+999-9999-9999 | website</p>
-
+      
       </div>
 
       <div class="spot2">
         <h2>Code primera</h2>
 
-        <img src="images/school_coding.png" alt="logo of transport">
+        <img src="images/place_holder.jpg" data-src="images/Mega_ofrenda_de_muertos.jpg" alt="death day">
 
         <p class="division_line">An after school coding intructional program</p>
-        <p>contact@codeprimera.com</p>
-        <p>+999-9999-9999 | website</p>
+   
 
       </div>
 
       <div class="spot3">
         <h2>Build A Treefort</h2>
 
-        <img src="images/treefort.png" alt="logo of transport">
+        <img src="images/place_holder.jpg" data-src="images/san_francisco.jpg" alt="san francisco church">
 
         <p class="division_line">Over 1000 plans!</p>
-        <p>builda@treefort.com</p>
-        <p>+888-8888-8888 | website</p>
+      
 
+      </div>
+
+
+      <div class="spot4">
+        <h2>Build A Treefort</h2>
+
+
+        <img src="images/place_holder.jpg" data-src="images/Victoria_del_Viento.jpg" alt="vitoria del viento monument">
+
+        <p class="division_line">Over 1000 plans!</p>
+      
+
+      </div>
+
+
+      <div class="spot5">
+        <h2>Build A Treefort</h2>
+
+        <img src="images/place_holder.jpg" data-src="images/Vista_de_Pachuca.jpg" alt="panoramic pachuca center">
+
+        <p class="division_line">Over 1000 plans!</p>
+      
+      </div>
+
+      <div class="spot5">
+        <h2>Build A Treefort</h2>
+
+        <img src="images/place_holder.jpg" data-src="images/cubitos.jpg" alt="cubitos colony in pachuca">
+
+        <p class="division_line">Over 1000 plans!</p>
+      
       </div>
 
     </div>
 
 
 
-    <div class="holder join">
-
-
-      <p>Discover how to join to the chamber of commerce and change the life of your enterprise!</p>
-      <img src="images/join_us.png" alt="">
-
-
-      <div class="btn_join">
-        <a href="#">Join Us!</a>
-      </div>
+    
 
     </div>
 
@@ -194,6 +199,8 @@
     </div>
   </footer>
   <script src="scripts/updated.js"></script>
+  <script src="scripts/lazy_images.js"></script>
+  <script src="scripts/local_storage.js"></script>
 
 </body>
 
