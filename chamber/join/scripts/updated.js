@@ -57,3 +57,17 @@ if (temperatureFar < 51 && speedMph > 3) {
 }
 /****************here finish the code of temperature******************/
 
+
+/***********************************************************/
+/******************** Here start the date and time************
+ ************************ in the hidden inputs*****************/
+
+
+// I used the same variable "d" of new date() before code and use here
+document.getElementById("dateHidden").value = d;
+
+// Then I get the hours and minutes from the same variable 
+let getHours = d.getHours();
+let getMinutes = d.getMinutes();
+
+document.getElementById("timeHidden").value = `${getHours}:${getMinutes}`
