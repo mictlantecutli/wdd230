@@ -1,0 +1,504 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*This code is for the header and footer and the body*/
+body {
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+
+html {
+	background-color: black;
+}
+
+header,
+footer {
+	background-color: white;
+}
+
+h1,
+h2 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+body p,
+footer,
+nav {
+
+	font-family: 'Varela Round', sans-serif;
+}
+
+/*Here I start with the main part of the web page */
+
+
+.holder {
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	padding: 7px;
+	text-align: center;
+
+}
+
+main div {
+	padding: 7px;
+}
+
+
+.hero {
+	position: relative;
+}
+
+.hero h2 {
+	position: absolute;
+	top: 60px;
+	left: 70px;
+}
+
+.hero .btn_main {
+	font-size: 30px;
+	background-color: #f7c72b;
+	border: 1px solid #32292f;
+	padding: 7px;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	border-radius: 5px 5px 5px 5px;
+	position: absolute;
+	bottom: 70px;
+	left: 150px;
+}
+
+.hero picture img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+
+/**This is for the advertisments of the right side**/
+
+.holderspot {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 100%;
+	grid-row: 5/7;
+	gap: 10px;
+
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+}
+
+.holderspot div {
+
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	padding: 10px;
+	text-align: center;
+
+
+}
+
+.holderspot img {
+	
+	width: 100%;
+}
+
+.holderspot .spot3 {
+	display: none;
+}
+/**End of the advertisments of the right side**/
+
+
+
+
+
+/*This is the event section*/
+.event {
+	display: block;
+}
+
+
+.holder{
+	display: block;
+}
+
+.holder img{
+	width: 100%;
+}
+
+
+/*This is the weather section*/
+.weather {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.weather .border_above{
+	border-top: 1px solid rgb(128, 125, 125);
+  padding-top: 30px;
+}
+
+.weather img{
+	width: 150px;
+	grid-column: 1/2;
+
+}
+
+.weather span{
+	font-size: 30px;
+	grid-column: 2/3;
+	margin: auto 0;
+
+}
+
+.weather p{
+	grid-column: 1/3;
+
+}
+
+/*This is the section of join us*/
+.join {
+	display: none;
+	
+}
+
+.join p{
+
+	color: #000000;
+
+}
+
+
+.join .btn_join {
+	margin: 0 auto;
+	background-color: #f7c72b;
+	border: 1px solid #32292f;
+	padding: 10px;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+	border-radius: 5px 5px 5px 5px;
+	width: 70%;
+	
+}
+
+.btn_join a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+
+/*This is the section for new release*/
+.news {
+	display: block;
+	
+}
+
+
+/******************************************************/
+/*******This is the code for join web page*************/
+/******************************************************/
+
+/*******************MEMBERSHIP SECTION*****************/
+.join_main{
+	display: block;
+
+}
+
+
+form{
+	grid-column: 1/2;
+
+}
+
+.memberships{
+	grid-column: 2/3;
+
+}
+
+
+/*--------------FORM---------------*/
+
+
+form fieldset{
+	margin: 2rem 20px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: .5rem 2%;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(80, 78, 78)
+}
+
+form legend{
+	color: rgb(252, 252, 252);
+	margin: 0 1rem;
+	padding: 0 .5rem;
+	background-color: #0E53A2;
+	font-size: 24px;
+	border: 1px solid black;
+}
+
+form label.top, form div{
+	display: block;
+	padding-top: 1rem;
+	color: red;
+	font-size: .8rem;
+}
+
+form label.top input,form label.top select{
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+form label.top textarea{
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(0, 0, 0, .1);
+
+}
+
+
+
+form input.submitBtn{
+	border: none;
+	background-color: #D16919;
+	color: white;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 35rem;
+	font-size: 20px;
+}
+
+form label.sbs {
+	display: block;
+	padding: 0.75rem 0;
+	color: #32292f;
+}
+
+form label.top input:required{
+	border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+	border-left: green solid 6px;
+}
+
+/******************************************************/
+/******************HERE FINISH THE FORM***************/
+/******************************************************/
+
+/******************************************************/
+/*****************here star the explanation************/
+/*********************of the memberships***************/
+
+.memberships {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 70px 1fr;
+	height: 100%;
+	gap: 10px;
+	border: 1px solid #32292f;
+	background-color: #ffffff;
+	box-shadow: 3px 3px 10px rgb(54 54 54);
+}
+
+
+.member_title{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.member_title h2{
+	font-size:50px ;
+	color: #d59107;
+	text-shadow: 0 1px 3px #32292f;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*This code is for the header*/
+header {
+	display: grid;
+	grid-template-columns: 230px 1fr 70px 70px;
+	gap: 20px;
+
+}
+
+header img {
+	grid-column: 1/2;
+	grid-row: 1;
+	width: 80%;
+	margin: auto;
+}
+
+#ham {
+	display: grid;
+	grid-column: 4/5;
+	background-color: transparent;
+	align-content: center;
+	border: none;
+	font-size: 2rem;
+	margin: 2rem 2vw;
+}
+
+nav {
+	display: none;
+
+}
+
+/*This is the class changed when the user click in ham button*/
+.responsive {
+	display: grid;
+	grid-column: 1/4;
+	grid-row: 2/3;
+	text-align: center;
+}
+
+.socials {
+	grid-column: 3/4;
+	grid-row: 1;
+	display: flex;
+	justify-content: right;
+
+}
+
+.socials svg {
+	margin-right: 5px;
+	width: 40px;
+
+}
+
+#date {
+	padding: 1em;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	grid-column: 1/5;
+	color: #ffe5ae;
+
+	text-align: center;
+	height: 4rem;
+	background-color: #d59107;
+}
+
+
+.part_1_footer {
+	display: block;
+	text-align: center;
+
+}
+
+.part_1_footer img {
+	width: 60%;
+
+}
+
+.logo_footer {
+	display: block;
+
+}
+
+
+
+.navigation li a:hover {
+	color: white;
+	background-color: #E7BF0A;
+
+}
+
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.copy {
+	margin: 0 10px;
+	padding: 1em;
+	text-align: center;
+	border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.pop {
+	display: none;
+
+	padding: .5em;
+	grid-column: 1/4;
+	color: #020202;
+	text-align: center;
+	background-color: #b1b0ad;
+}
+
+.close {
+	width: 2em;
+	background-color: white;
+	color: red;
+	margin: 0 5px;
+	font-size: 20px;
+
+
+}
