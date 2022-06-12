@@ -41,33 +41,18 @@ close.addEventListener("click", () => {
 })
 
 
-/*************This is the code fot the temperature*******************/
-let temperatureCelsius = parseFloat(document.getElementById("temp").innerText);
-let speedWind = parseFloat(document.getElementById("speed").innerText);
-
-
-let temperatureFar = (temperatureCelsius * 1.8) + 32;
-let speedMph = speedWind * 0.62137
-
-if (temperatureFar < 51 && speedMph > 3) {
-    let wChill = 35.74 + 0.6215 * temperatureFar - 35.75 * Math.pow(speedMph, .16) + .4275 * temperatureFar * Math.pow(speedMph, .16);
-    document.getElementById("chill").innerText = parseInt(wChill);
-}else{
-    document.getElementById("chill").innerText = "N/A";
-}
-/****************here finish the code of temperature******************/
 
 
 /***********************************************************/
 /******************** Here start the date and time************
  ************************ in the hidden inputs*****************/
-
+let getTime = new Date();
 
 // I used the same variable "d" of new date() before code and use here
-document.getElementById("dateHidden").value = d;
+document.getElementById("dateHidden").value = getTime.toDateString();
 
 // Then I get the hours and minutes from the same variable 
-let getHours = d.getHours();
-let getMinutes = d.getMinutes();
+var getHours = getTime.getHours();
+var getMinutes = getTime.getMinutes();
 
 document.getElementById("timeHidden").value = `${getHours}:${getMinutes}`
