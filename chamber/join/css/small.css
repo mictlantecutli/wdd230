@@ -410,11 +410,12 @@ nav {
 	text-align: center;
 }
 
-.socials {
+.socials{
 	grid-column: 3/4;
 	grid-row: 1;
 	display: flex;
 	justify-content: right;
+	align-items: center;
 
 }
 
