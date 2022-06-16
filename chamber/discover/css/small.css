@@ -219,34 +219,6 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*This code is for the header*/
 header {
 	display: grid;
@@ -290,6 +262,7 @@ nav {
 	grid-row: 1;
 	display: flex;
 	justify-content: right;
+	align-items: center;
 
 }
 
