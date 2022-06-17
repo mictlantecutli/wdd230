@@ -1,4 +1,4 @@
-const requestURL = '/chamber/jason/data.json';
+const requestURL = '../chamber/jason/data.json';
 const directoryBox = document.querySelector('.directory_box');
 
 
