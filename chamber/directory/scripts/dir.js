@@ -1,4 +1,4 @@
-const requestURL = '../chamber/jason/data.json';
+const requestURL = 'https://mictlantecutli.github.io/wdd230/chamber/jason/data.json';
 const directoryBox = document.querySelector('.directory_box');
 
 
