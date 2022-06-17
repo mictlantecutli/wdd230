@@ -1,76 +1,76 @@
 {
   "directoryOfBusiness": [
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "chilakil food",
+      "address": "Palmas 56, Plutarco Elias, Ags, Ags ",
+      "phone": "(449)345-9343",
+      "website": "www.chilakil.com",
+      "logoImage": "chilakil_logo.webp",
+      "membership": "Bronze Level"
   },
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "Xochitl Textile",
+      "address": "Monte Uranio 345, Barrancas, Mty, NL",
+      "phone": "(81)4835-234",
+      "website": "www.xochitl.com",
+      "logoImage": "textile_logo.webp",
+      "membership": "Gold Level"
   },
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "Life and Health",
+      "address": "Ciudad Azteca 21, Tenochtitlán, Oaxaca, Oax.",
+      "phone": "(95)4857-3243",
+      "website": "www.lifehealth.com",
+      "logoImage": "life_health.webp",
+      "membership": "Gold Level"
   },
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "Itztic Ice Traditional",
+      "address": "Everardo Márquez 42, Culturas, Pachuca, Hidalgo",
+      "phone": "(771)9242-023",
+      "website": "www.itzticice.com",
+      "logoImage": "ice_traditional.webp",
+      "membership": "Bronze Level"
   },
   {
-      "logo": "bakery1.webp",
-      "companyName": "Bake My Day",
-      "address": "203 Rise Rd, Mount Saratoga, UT 84045",
-      "phoneNumber": "(801)483-6767",
-      "website": "www.bakemyday.com",
-      "membership": "Bronze Member"
+      "name": "Camping El Cedral",
+      "address": "Huasca 755, San Miguel, San Luis Potosí, SLP",
+      "phone": "(444)3732-292",
+      "website": "www.campingcedral.com",
+      "logoImage": "camping_cedral.webp",
+      "membership": "Gold Level"
   },
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "Nikté Florist",
+      "address": "Adelita 54, El carruaje, Fresnillo, Zacatecas",
+      "phone": "(493)2131-432",
+      "website": "www.nikteflorist.com",
+      "logoImage": "nikte_florist.webp",
+      "membership": "Bronze Level"
   },
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "Pastes Tuzos",
+      "address": "Real del Monte, Mineros, Caborca, Sonora",
+      "phone": "(637)9234-325",
+      "website": "www.pastestuzos.com",
+      "logoImage": "pastes_tuzos.webp",
+      "membership": "Silver Level"
   },
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "Ahuiaca Fragrances",
+      "address": "Gertrudis 32, Poblamiento, Guadalajara, Jal.",
+      "phone": "(33)2341-5434",
+      "website": "www.fragrancesahua.com",
+      "logoImage": "fragrances_ahua.webp",
+      "membership": "Gold Level"
   },
   {
-      "name": "ice-cream1.webp",
-      "address": "Sugar Cream",
-      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
-      "website": "(801)123-4567",
-      "logoImage": "www.sugarcream.com",
-      "membership": "Silver Member"
+      "name": "Trigo Traditional Loaf",
+      "address": "Zacualtipán 331, Caminos, Huejutla, Hidalgo",
+      "phone": "(789)3242-434",
+      "website": "www.trigoloaf.com",
+      "logoImage": "traditional_loaf.webp",
+      "membership": "Bronze Level"
   }
 ]
 }

@@ -213,12 +213,6 @@ main {
 /*******This is the code for DISCOVER web page*********/
 /******************************************************/
 
-
-
-
-
-
-
 /*This code is for the header*/
 header {
 	display: grid;
@@ -348,5 +342,86 @@ nav {
 	margin: 0 5px;
 	font-size: 20px;
 
+}
+
+/******************************************************/
+/*******Here I set the style for the companies*********/
+/******************************************************/
+
+main{
+	display: block;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+.menu{
+	text-align: center;
+}
+
+
+.directory_box section{
+	background-color: white;
+	margin: 1rem;
+	text-align: center;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border: 1px solid #040404;
+  box-shadow: 3px 3px 10px rgb(32, 13, 1); 
+}
+
+.directory_box img{
+	width: 150px;
+}
+
+
+
+.menu button{
+	color: white;
+	background-color: #0E53A2;
+	margin: .8rem;
+	padding: 10px 30px;
+	box-shadow: 3px 3px 10px rgb(32, 13, 1)
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+
+.list{
+	display: flex;
+	flex-direction:column;
+	
+}
+
+.list section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	justify-content:space-evenly;
 
 }
+
+.list section h2{
+	text-shadow: 3px 3px 10px rgb(32, 13, 1);
+	padding-bottom: 1.5rem;
+}
+
+.list section p{
+	padding-left: 1rem;
+}
+
+.list section:nth-last-of-type(even) {
+	background-color: #84827F;
+}
+
+.list section img{
+	display: none;
+}
+
