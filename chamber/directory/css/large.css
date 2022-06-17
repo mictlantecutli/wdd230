@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 60em) {
+  
+
+  /*This is some changes in the header resposive in large view*/
+  #ham{
+    display: none ;
+  }
+
+
+
+  /*This is the navigation menu in complete screen*/
+  header{
+    display: grid;
+    grid-template-columns: 500px 1fr 90px;
+
+  }
+
+
+
+  nav, .responsive{
+
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-items: center;
+    justify-items: center;
+  }
+
+
+ 
+
+   nav ul{
+    display: flex;
+  }
+
+  .socials {
+    grid-column: 3/4;
+
+    display: flex;
+  
+  }
+
+  #date{
+    grid-column: 1/4;
+  }
+
+  /***Here starts the main section ***/
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+  .event{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  
+  
+  .hero .btn_main {
+    bottom: 100px;
+	  left: 150px;
+  }
+  
+  .holderspot{
+    grid-column: 3/4;
+    grid-row: 1/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .demography1{
+    grid-column: 1/3;
+  }
+
+  .demography2{
+    grid-column: 1/3;
+  }
+
+  .demography3{
+    grid-column: 1/3;
+  }
+
+  .visits{
+    grid-column: 1/3;
+    grid-row: 6/7;
+  }
+
+  .holderspot div{
+    height: 100%;
+
+  }
+
+
+  .holderspot .spot3 {
+    display: block;
+  }
+
+
+  
+  .weather{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+  }
+  
+  .join{
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+
+  .join img {
+
+    width: 50%;
+  }
+ 
+  /*This is for the new release section*/  
+  .news{
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+
+  .news p{
+    margin-top: 0px ;
+  }
+  
+  .news h2{
+    margin-top: 60px;
+  }
+  
+
+}

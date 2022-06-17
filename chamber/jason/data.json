@@ -1,0 +1,76 @@
+{
+  "directoryOfBusiness": [
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  },
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  },
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  },
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  },
+  {
+      "logo": "bakery1.webp",
+      "companyName": "Bake My Day",
+      "address": "203 Rise Rd, Mount Saratoga, UT 84045",
+      "phoneNumber": "(801)483-6767",
+      "website": "www.bakemyday.com",
+      "membership": "Bronze Member"
+  },
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  },
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  },
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  },
+  {
+      "name": "ice-cream1.webp",
+      "address": "Sugar Cream",
+      "phone": "123 Sweet St, Mount Saratoga, UT 84045",
+      "website": "(801)123-4567",
+      "logoImage": "www.sugarcream.com",
+      "membership": "Silver Member"
+  }
+]
+}
