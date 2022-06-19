@@ -30,7 +30,7 @@ function displayCompanies(company) {
   logoCompany.setAttribute('alt', `Logo of: ${company.logoImage}`);
   logoCompany.setAttribute('loading', 'lazy');
 
-  // Change the textContent property of the h2 element to contain the prophet's full name
+  // Change the textContent property of the h2, p element to contain the name, address, phone, website and membership of the companies.
   nameCompany.textContent = `${company.name}`
   addressCompany.textContent = `${company.address}`
   phoneCompany.textContent = `${company.phone}`
@@ -40,7 +40,7 @@ function displayCompanies(company) {
 
 
 
-  // Add/append the section(card) with the h2 element
+  // Add/append the section(company) with img, h2 and four p element.
   directorySection.appendChild(logoCompany);
   directorySection.appendChild(nameCompany);
   directorySection.appendChild(addressCompany);
@@ -50,12 +50,12 @@ function displayCompanies(company) {
 
 
 
-  // Add/append the existing HTML div with the cards class with the section(card)
+  // Add/append the existing HTML div with the directory_box class with the section(company)
   document.querySelector('.directory_box').appendChild(directorySection);
 }
 
 
-/**This is the code for the buttons**/
+/**This is the code for the buttons grid and list**/
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
