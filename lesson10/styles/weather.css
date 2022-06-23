@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: aliceblue;
+}
+
+body{
+
+  margin: 20px auto;
+  background-color: rgb(126, 233, 126);
+  width: 550px;
+  line-height: 40px;
+  text-align: center;
+  border:1px solid chocolate ;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+h1{
+  color: white;
+}
+
+footer{
+  border-top: 1px solid black;
+}
