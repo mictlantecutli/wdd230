@@ -80,9 +80,18 @@
 
 
     <div class="holder weather">
-      <img src="images/clima.png" alt="weather icon">
-      <span id="temp">7.7 ºC</span>
-      <p class="border_above">Wind speed: <span id="speed">8.04</span> km/hr</p>
+      <div class="title_temp">
+        <p class="temp_grid"><span id="temp"></span>&deg;F</p>
+      </div>
+
+      <div class="icon_temp">
+        <figure class="icon_weather">
+          <img src="" alt="" id="weather-icon" />
+          <figcaption></figcaption>
+        </figure>
+      </div>
+
+      <p class="border_above">Wind speed: <span id="speed"></span> km/hr</p>
       <p>Wind chill: <span id="chill">N/A</span></p>
     </div>
 

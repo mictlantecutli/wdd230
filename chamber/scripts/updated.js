@@ -20,8 +20,8 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 const hambutton = document.querySelector('#ham');
 const mainnav = document.querySelector('nav')
 
-hambutton.addEventListener("click", function(){
-  
+hambutton.addEventListener("click", function () {
+
   mainnav.classList.toggle("responsive")
 });
 
@@ -32,7 +32,7 @@ hambutton.addEventListener("click", function(){
 
 let d = new Date().getDay();
 const pop = document.querySelector(".pop");
-if (d === 1 || d === 2){
+if (d === 1 || d === 2) {
   pop.style.display = "block"
 
 }
@@ -40,25 +40,70 @@ if (d === 1 || d === 2){
 const close = document.querySelector(".close");
 close.addEventListener("click", () => {
   pop.style.display = "none";
-  
+
 })
 
 
+/////////////This is the code fir the API//////////////
 
-let temperatureCelsius = parseFloat(document.getElementById("temp").innerText);
-let speedWind = parseFloat(document.getElementById("speed").innerText);
+const currentTemp = document.querySelector('#temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+const speedWind = document.querySelector('#speed')
+const wChill = document.querySelector('chill')
+
+const requestURL = 'https://api.openweathermap.org/data/2.5/weather?q=Pachuca&units=imperial&appid=4b295a19abeeb2912f33ca4087040e34';
 
 
+async function apiFetch(apiUrl) {
 
+  const response = await fetch(apiUrl);
+  if (response.ok) {
+    const data = await response.json();
+    console.log(data); // this is for testing the call
+    displayResults(data);
+  } else {
+    throw Error(await response.text());
+  }
 
-let temperatureFar = (temperatureCelsius * 1.8) + 32;
-let speedMph = speedWind * 0.62137
-
-if (temperatureFar < 51 && speedMph > 3) {
-    let wChill = 35.74 + 0.6215 * temperatureFar - 35.75 * Math.pow(speedMph, .16) + .4275 * temperatureFar * Math.pow(speedMph, .16);
-    document.getElementById("chill").innerText = parseInt(wChill);
-}else{
-    document.getElementById("chill").innerText = "N/A";
 }
+
+apiFetch(requestURL)
+
+function displayResults(weatherData) {
+  currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+
+  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const desc = weatherData.weather[0].description;
+
+  weatherIcon.setAttribute('src', iconsrc);
+  weatherIcon.setAttribute('alt', desc);
+  captionDesc.innerHTML = desc
+
+  speedWind.innerHTML = `${weatherData.wind.speed}`
+
+
+  if (weatherData.main.temp.toFixed(0) < 50 && weatherData.wind.speed > 3) {
+    let wChill = 35.74 + 0.6215 * weatherData.main.temp.toFixed(0) - 35.75 * Math.pow(weatherData.wind.speed, .16) + .4275 * weatherData.main.temp.toFixed(0) * Math.pow(weatherData.wind.speed, .16);
+    document.getElementById("chill").innerText = parseInt(wChill);
+  } else {
+    document.getElementById("chill").innerText = "N/A";
+  }
+
+ 
+}
+
+
+
+
+
+
+///let temperatureCelsius = parseFloat(document.getElementById("temp").innerText);
+//let speedWind = parseFloat(document.getElementById("speed").innerText);
+
+///let temperatureFar = (temperatureCelsius * 1.8) + 32;
+///let speedMph = speedWind * 0.62137
+
+//let temperatureFar = parseFloat(document.getElementById("temp").innerText);
 
 
