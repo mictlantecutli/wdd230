@@ -92,8 +92,6 @@ main div {
 	background-color: #ffffff;
 	box-shadow: 3px 3px 10px rgb(54 54 54);
 
-
-
 }
 
 .holderspot div {
@@ -101,6 +99,7 @@ main div {
 	background-color: #ffffff;
 	box-shadow: 3px 3px 10px rgb(54 54 54);
 	padding: 10px;
+	padding-top: 50px;
 	text-align: center;
 
 }
@@ -125,13 +124,12 @@ main {
 
 /*This is the event section*/
 .event {
-	display: block;
+	display: grid;
+	grid-template-columns: 1fr;
+
 }
-
-
-
-.hero {
-	display: block;
+.event{
+	align-items: center;
 }
 
 .hero picture img {
@@ -146,6 +144,7 @@ main {
 	width: 400px;
 	margin: 0 auto;
 	align-items: center;
+	
 }
 
 .weather .border_above{
@@ -154,16 +153,20 @@ main {
 }
 
 .weather img{
-	width: 150px;
+	width: 90px;
 	grid-column: 1/2;
 
 }
 
-.weather span{
-	font-size: 30px;
+.weather #temp{
+	font-size: 50px;
 	grid-column: 2/3;
 	margin: auto 0;
 
+}
+
+.weather .temp_grid{
+	font-size: 50px;
 }
 
 .weather p{
@@ -283,7 +286,6 @@ nav {
 	margin-bottom: 1rem;
 	grid-column: 1/5;
 	color: #ffe5ae;
-
 	text-align: center;
 	height: 4rem;
 	background-color: #d59107;
@@ -340,7 +342,7 @@ nav {
 	display: none;
 
 	padding: .5em;
-	grid-column: 1/4;
+	grid-column: 1/5;
 	color: #020202;
 	text-align: center;
 	background-color: #b1b0ad;
