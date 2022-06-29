@@ -37,7 +37,7 @@ nav {
 
 .holder {
 	border: 1px solid #32292f;
-	background-color: #ffffff;
+	background-color: #fcfcfc;
 	box-shadow: 3px 3px 10px rgb(54 54 54);
 	padding: 7px;
 	text-align: center;
@@ -115,10 +115,8 @@ main div {
 
 
 main {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 20px;
-	padding: 20px;
+	display: block;
+	
 }
 
 
@@ -128,14 +126,10 @@ main {
 }
 
 
-.holder{
-	display: block;
-}
 
 .holder img{
 	width: 100%;
 }
-
 
 
 
@@ -212,11 +206,6 @@ main {
 /******************************************************/
 /*******This is the code for DISCOVER web page*********/
 /******************************************************/
-
-
-
-
-
 
 
 /*This code is for the header*/
@@ -335,7 +324,7 @@ nav {
 	display: none;
 
 	padding: .5em;
-	grid-column: 1/4;
+	grid-column: 1/5;
 	color: #020202;
 	text-align: center;
 	background-color: #b1b0ad;
@@ -350,3 +339,36 @@ nav {
 
 
 }
+
+
+
+.demography_imgs img{
+	box-shadow: 3px 3px 10px rgb(54 54 54);;
+}
+
+
+.logo{
+	display: block;	
+}
+
+
+.logo picture img{
+	width: 30%;	
+	margin-bottom: 10px;
+}
+
+
+.local_storage{
+	text-align: center;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+

@@ -7,9 +7,6 @@
 @media only screen and (min-width: 60em) {
   
 
-
-
-
   /*This is some changes in the header resposive in large view*/
   #ham{
     display: none ;
@@ -23,7 +20,6 @@
     grid-template-columns: 500px 1fr 90px;
 
   }
-
 
 
   nav, .responsive{
@@ -50,7 +46,11 @@
   }
 
   #date{
-    grid-column: 1/5;
+    grid-column: 1/4;
+  }
+
+  .pop{
+    grid-column: 1/4;
   }
 
   /***Here starts the main section ***/

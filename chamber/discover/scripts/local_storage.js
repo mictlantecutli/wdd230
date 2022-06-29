@@ -22,7 +22,7 @@ localStorage.setItem("visits-ls", numVisits);
 
 
 if (numMills !== 0){
-  daysLast = (Date.now() - numMills) / 86400000
+  daysLast = Math.round((Date.now() - numMills) / 86400000)
   todayDisplay.textContent = daysLast
 }else{
   todayDisplay.textContent =`This is your first visit!`;
