@@ -44,7 +44,7 @@ close.addEventListener("click", () => {
 })
 
 
-/////////////This is the code fir the API//////////////
+/////////////This is the code for the API//////////////
 
 const currentTemp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#weather-icon');
