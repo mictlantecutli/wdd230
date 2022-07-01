@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 60em) {
+  
+
+  /*This is some changes in the header resposive in large view*/
+  #ham{
+    display: none ;
+  }
+
+
+
+  /*This is the navigation menu in complete screen*/
+  header{
+    display: grid;
+    grid-template-columns: 500px 1fr 90px;
+
+  }
+
+
+
+  nav, .responsive{
+
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-items: center;
+    justify-items: center;
+  }
+
+
+
+   nav ul{
+    display: flex;
+  }
+
+  .socials {
+    grid-column: 3/4;
+
+    display: flex;
+  
+  }
+
+  #date{
+    grid-column: 1/4;
+  }
+  /**************************************************/
+  /***Here starts the main section of contact page***/
+  /**************************************************/
+
+  .container_promo{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .container ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+  }  
+
+
+  .item_content{
+    display: flex;
+  }
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+ 
+  
+
+
+ 
+
+
+
+  
+
+}

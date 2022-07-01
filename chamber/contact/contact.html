@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is the contact webpage of the chamber">
+
+
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <title>Join Seed Chamber</title>
+</head>
+
+
+
+<body>
+  <!--header-->
+  <header>
+
+    <img src="images/logo_chambnew.webp" alt="image of the logo of the chamber">
+
+    <div class="socials">
+      <a href="facebook.com"><img src="images/face_icon.png" alt="icon facebook"></a>
+
+      <a href="twitter.com"><img src="images/twitter_icon.png" alt="twitter facebook"></a>
+
+    </div>
+    <button id="ham">
+      <span>&#9776;</span>
+    </button>
+    <nav>
+      <ul class="navigation">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../directory/directory.html">Directory</a></li>
+        <li><a href="../discover/discover.html">Discover</a></li>
+        <li><a href="../join/join.html">Join Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="date"></div>
+    <div class="pop">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button
+        class="close">X</button></div>
+  </header>
+
+  <!--Main-->
+  <main>
+    <hr>
+    <section class="container">
+      <div class="container_promo">
+
+        <div class="promo_text">
+          <h2>Contact Us</h2><br><br>
+          <p><em>Seed Chamber</em><br>Humberto Velasco Avilés #100 <br> Forjadores de Pachuca <br> Hidalgo, México,
+            42085</p><br>
+          <p>+(52) 7716 99 9413</p>
+        </div>
+
+        <div class="promo_image">
+          <img src="images/zota_plateada.webp" alt="image of zona plateada, Pachuca, Hidalgo">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="container">
+      <ul>
+        <li>
+          <div class="item_content">
+            <div class="img_photo">
+              <img src="images/my_photo.webp" alt="photo of me">
+            </div>
+            <div class="item_description">
+              <h3>General Information</h3><br>
+              <p>If you want to know more about Seed Chamber, contact me!.</p><br>
+              <p>Moisés Parra is always willing to help you, so if you have any questions about Seed Chamber, contact
+                him and if he doesn't have the answer, he will channel you to the right person.</p><br>
+              <p>(771) 699-9413</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="item_content">
+            <div class="item_description">
+              <p>
+                <strong>Memebership</strong>
+                <br>
+                Here all your questions related to membership levels, costs, benefits and help to fill out your
+                application. Tell us your concerns!!, contact:
+                <br>
+                <a href="#">membership@seedchamber.com</a>
+              </p>
+              <br>
+              <p>
+                <strong>Programs/Opportunity Seed</strong>
+                <br>
+                <a href="#">Constanzo</a>, Executive Vice President
+              </p>
+              <p>
+                <br>
+                <strong>Calls for Project</strong>
+                <br>
+                <a href="#">projects@seedchamber.com</a>
+              </p>
+              <br>
+              <p>
+
+                <strong>
+                  Public Relation
+                  <br>
+                </strong>
+                ALberto Sosa <br>
+                Director of Communications
+                <br>
+                <a href="#">communicationpublic@seedchamber.com</a>
+
+
+              </p>
+
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <div class="join_main">
+      <form method="get" action="../thankyou_page/thanks.html">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="top">Company Name<input type="text" name="name"></label>
+          <label class="top">Are you a Memeber Chamber?*</label>
+          <label class="check"><input type="checkbox" name="member" value="yes">yes</label>
+          <label class="check"><input type="checkbox" name="notMemeber" value="no">no</label>
+          <label class="check"><input type="checkbox" name="notSure" value="not sure">no sure</label>
+
+          <label class="top">What questions do you have for the Seed Chamber?<textarea name="description"
+              placeholder="Tell us your cooncerns"></textarea></label>
+          <input type="hidden" id="dateHidden" name="dateHidden" value="date">
+
+          <input type="hidden" id="timeHidden" name="timeHidden" value="time"><br><br>
+          <input type="submit" value="Send us your questions!" class="submitBtn">
+
+
+        </fieldset>
+
+      </form>
+
+
+
+
+
+
+
+    </div>
+
+  </main>
+
+  <!--footer-->
+  <footer>
+    <div class="part_1_footer">
+      <div class="logo_footer">
+        <img src="images/logo_chambnew.webp" alt="">
+
+        <div class="direction">
+          <p class="text_dir">Humberto Velasco Avilés #100, Forjadores de Pachuca, Hidalgo, México, 42085
+          </p>
+        </div>
+      </div>
+
+
+      <div class=contacto>
+        <p>info@seed.com
+          +(52) 7716 99 9413
+          📍 Map</p>
+      </div>
+    </div>
+
+
+    <div class="copy">
+      &copy;<span class="year"></span>&#9621; Seed Chamber Commerce&#9621; Moisés Parra &#9621; WDD 230 Project&#9621;
+      <span class="date_updated"></span>
+    </div>
+  </footer>
+
+  <script src="js/updated.js"></script>
+
+
+</body>
+
+</html>

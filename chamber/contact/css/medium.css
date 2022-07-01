@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 37.5em) {
+
+  /*This is some change in main element in medium size
+  main {
+    background-color: #cfb49f;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+*/
+
+  /***********************This is code for contact page**************************/
+  /*************************************************************/
+
+  .container ul {
+    display: block;
+  }
+
+
+
+
+  .item_content {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /**************This code is for the header*******/
+  header {
+    grid-template-columns: 400px 1fr 85px 100px;
+    gap: 20px;
+  }
+
+  .socials {
+    grid-column: 3/4;
+  }
+
+  #ham {
+    grid-column: 4/5;
+  }
+
+  #date {
+    grid-column: 1/5;
+  }
+
+  /********************finish the header************************/
+
+
+  /*********************************************/
+  /*This code if for the footer of the web page in medium size*/
+  /*********************************************/
+  .part_1_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logo_footer {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+}
