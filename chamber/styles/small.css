@@ -122,6 +122,10 @@ main div {
 	width: 60%;
 }
 
+.spot hr {
+	border: 1px solid orange;
+}
+
 /**End of the advertisments of the right side**/
 
 
@@ -293,12 +297,12 @@ nav {
 }
 
 #date {
-	font-size: 1em;
+	font-size: 1.2em;
 	padding: 1em;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 	grid-column: 1/5;
-	color: white;
+	color: #0E53A2;
 	text-align: center;
 	height: 4rem;
 	background-color: #d59107;

@@ -355,19 +355,6 @@ form label.top input:required:valid {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*This code is for the header*/
 header {
 	display: grid;
@@ -423,10 +410,11 @@ nav {
 
 #date {
 	padding: 1em;
+	font-size: 1.2em;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 	grid-column: 1/5;
-	color: #ffe5ae;
+	color: #0E53A2;
 
 	text-align: center;
 	height: 4rem;

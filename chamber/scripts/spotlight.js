@@ -40,7 +40,8 @@ function highLevelCompanies(datos) {
     let email = document.createElement("p");
     let phone = document.createElement("p");
     let web = document.createElement("p");
-    let spotmsj = document.createAttribute("h3")
+    let spotmsj = document.createElement("h3")
+    let lineHorizontal = document.createElement("hr")
 
     spot.setAttribute("class", "spot");
     nameBusiness.innerHTML = `${company.name}`
@@ -60,6 +61,7 @@ function highLevelCompanies(datos) {
 
     spot.appendChild(logo);
     spot.appendChild(spotmsj);
+    spot.appendChild(lineHorizontal)
     spot.appendChild(web);
     spot.appendChild(phone);
 
