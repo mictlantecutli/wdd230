@@ -5,24 +5,25 @@
 }
 
 @media only screen and (min-width: 60em) {
-  
+
 
   /*This is some changes in the header resposive in large view*/
-  #ham{
-    display: none ;
+  #ham {
+    display: none;
   }
 
 
 
   /*This is the navigation menu in complete screen*/
-  header{
+  header {
     display: grid;
     grid-template-columns: 500px 1fr 90px;
 
   }
 
 
-  nav, .responsive{
+  nav,
+  .responsive {
 
     display: grid;
     grid-column: 2/3;
@@ -32,9 +33,9 @@
   }
 
 
- 
 
-   nav ul{
+
+  nav ul {
     display: flex;
   }
 
@@ -42,14 +43,14 @@
     grid-column: 3/4;
 
     display: flex;
-  
+
   }
 
-  #date{
+  #date {
     grid-column: 1/4;
   }
 
-  .pop{
+  .pop {
     grid-column: 1/4;
   }
 
@@ -59,27 +60,27 @@
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
-  
+
 
   }
 
-  .event{
+  .event {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-  
-  .hero{
+
+  .hero {
 
     grid-column: 2/4;
     grid-row: 1/3;
   }
-  
+
   .hero .btn_main {
     bottom: 100px;
-	  left: 150px;
+    left: 150px;
   }
-  
-  .holderspot{
+
+  .holderspot {
     grid-column: 4/5;
     grid-row: 1/4;
     display: flex;
@@ -88,7 +89,7 @@
 
   }
 
-  .holderspot div{
+  .holderspot div {
     height: 100%;
 
   }
@@ -99,14 +100,19 @@
   }
 
 
-  
-  .weather{
+  .spot:nth-child(3) {
+    display: block;
+  }
+
+
+
+  .weather {
     grid-column: 1/2;
     grid-row: 2/3;
 
   }
-  
-  .join{
+
+  .join {
     grid-column: 1/2;
     grid-row: 3/4;
   }
@@ -116,20 +122,20 @@
 
     width: 50%;
   }
- 
-  /*This is for the new release section*/  
-  .news{
+
+  /*This is for the new release section*/
+  .news {
     grid-column: 2/4;
     grid-row: 3/4;
   }
 
-  .news p{
-    margin-top: 0px ;
+  .news p {
+    margin-top: 0px;
   }
-  
-  .news h2{
+
+  .news h2 {
     margin-top: 60px;
   }
-  
+
 
 }

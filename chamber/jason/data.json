@@ -7,6 +7,7 @@
       "website": "www.chilakil.com",
       "logoImage": "chilakil_logo.webp",
       "membership": "Bronze Level"
+      
   },
   {
       "name": "Xochitl Textile",
@@ -14,7 +15,8 @@
       "phone": "(81)4835-234",
       "website": "www.xochitl.com",
       "logoImage": "textile_logo.webp",
-      "membership": "Gold Level"
+      "membership": "Gold Level",
+      "msjSpot": "Dress like a lily"
   },
   {
       "name": "Life and Health",
@@ -22,7 +24,8 @@
       "phone": "(95)4857-3243",
       "website": "www.lifehealth.com",
       "logoImage": "life_health.webp",
-      "membership": "Gold Level"
+      "membership": "Gold Level",
+      "msjSpot": "Your health is your food"
   },
   {
       "name": "Itztic Ice Traditional",
@@ -38,7 +41,8 @@
       "phone": "(444)3732-292",
       "website": "www.campingcedral.com",
       "logoImage": "camping_cedral.webp",
-      "membership": "Gold Level"
+      "membership": "Gold Level",
+      "msjSpot": "Make nature change you"
   },
   {
       "name": "Nikté Florist",
@@ -54,7 +58,8 @@
       "phone": "(637)9234-325",
       "website": "www.pastestuzos.com",
       "logoImage": "pastes_tuzos.webp",
-      "membership": "Silver Level"
+      "membership": "Silver Level",
+      "msjSpot": "The best flavor of Mexico"
   },
   {
       "name": "Ahuiaca Fragrances",
@@ -62,7 +67,8 @@
       "phone": "(33)2341-5434",
       "website": "www.fragrancesahua.com",
       "logoImage": "fragrances_ahua.webp",
-      "membership": "Gold Level"
+      "membership": "Gold Level",
+      "msjSpot": "Make history with your presence"
   },
   {
       "name": "Trigo Traditional Loaf",
