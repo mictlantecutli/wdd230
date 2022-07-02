@@ -6,7 +6,8 @@
       "phone": "(449)345-9343",
       "website": "www.chilakil.com",
       "logoImage": "chilakil_logo.webp",
-      "membership": "Bronze Level"
+      "membership": "Bronze Level",
+      "msjSpot": "Mexican food"
       
   },
   {
@@ -33,7 +34,8 @@
       "phone": "(771)9242-023",
       "website": "www.itzticice.com",
       "logoImage": "ice_traditional.webp",
-      "membership": "Bronze Level"
+      "membership": "Bronze Level",
+      "msjSpot": "Refresh your ideas"
   },
   {
       "name": "Camping El Cedral",
@@ -50,7 +52,8 @@
       "phone": "(493)2131-432",
       "website": "www.nikteflorist.com",
       "logoImage": "nikte_florist.webp",
-      "membership": "Bronze Level"
+      "membership": "Bronze Level",
+      "msjSpot": "fill you life of colors"
   },
   {
       "name": "Pastes Tuzos",
@@ -76,7 +79,8 @@
       "phone": "(789)3242-434",
       "website": "www.trigoloaf.com",
       "logoImage": "traditional_loaf.webp",
-      "membership": "Bronze Level"
+      "membership": "Bronze Level",
+      "msjSpot": "Your company in the morning"
   }
 ]
 }
