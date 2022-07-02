@@ -48,7 +48,7 @@ function highLevelCompanies(datos) {
     phone.innerHTML = `${company.phone}`
     //spotmsj.innerHTML = `${company.msjSpot}`
 
-    logo.setAttribute('src', `https://mictlantecutli.github.io/wdd230/chamber/directory/images/${company.logoImage}`);
+    logo.setAttribute('src', `images/${company.logoImage}`);
     logo.setAttribute('alt', `Logo of: ${company.name}`);
     logo.setAttribute('loading', 'lazy');
 
