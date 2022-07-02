@@ -40,13 +40,13 @@ function highLevelCompanies(datos) {
     let email = document.createElement("p");
     let phone = document.createElement("p");
     let web = document.createElement("p");
-    //let spotmsj = document.createAttribute("h3")
+    let spotmsj = document.createAttribute("h3")
 
     spot.setAttribute("class", "spot");
     nameBusiness.innerHTML = `${company.name}`
     web.innerHTML = `${company.website}`
     phone.innerHTML = `${company.phone}`
-    //spotmsj.innerHTML = `${company.msjSpot}`
+    spotmsj.innerHTML = `${company.msjSpot}`
 
     logo.setAttribute('src', `https://mictlantecutli.github.io/wdd230/chamber/directory/images/${company.logoImage}`);
     logo.setAttribute('alt', `Logo of: ${company.name}`);
@@ -59,7 +59,7 @@ function highLevelCompanies(datos) {
     spot.appendChild(nameBusiness);
 
     spot.appendChild(logo);
-    //spot.appendChild(spotmsj);
+    spot.appendChild(spotmsj);
     spot.appendChild(web);
     spot.appendChild(phone);
 
