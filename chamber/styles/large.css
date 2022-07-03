@@ -112,6 +112,11 @@
 
   }
 
+
+  .hero .btn_main {
+    font-size: 40px;
+  }
+
   .join {
     grid-column: 1/2;
     grid-row: 3/4;
@@ -131,11 +136,18 @@
 
   .news p {
     margin-top: 0px;
+    top: 150px;
   }
 
   .news h2 {
+    top: -10px;
     margin-top: 60px;
+
   }
+
+
+
+
 
 
 }

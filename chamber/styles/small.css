@@ -22,7 +22,7 @@ footer {
 
 h1,
 h2 {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Abril Fatface';
 }
 
 body p,
@@ -74,7 +74,6 @@ main div {
 
 .btn_main:hover {
 	background-color: #f0d781;
-
 	cursor: pointer;
 }
 
@@ -232,10 +231,17 @@ figcaption {
 	border-radius: 5px 5px 5px 5px;
 	width: 70%;
 
+
+}
+
+
+.btn_join:hover {
+	background-color: #f0d781;
+	cursor: pointer;
 }
 
 .btn_join a {
-	color: white;
+	color: black;
 	font-size: 30px;
 	text-decoration: none;
 }
@@ -244,8 +250,36 @@ figcaption {
 /*This is the section for new release*/
 .news {
 	display: block;
+	position: relative;
 
 }
+
+.news img {
+	width: 100%;
+
+}
+
+.news h2 {
+	position: absolute;
+	color: rgb(1, 1, 1);
+	top: 20px;
+	left: 30px;
+	font-size: 1.8em;
+}
+
+.news p {
+	text-align: right;
+
+	position: absolute;
+	top: 150px;
+	left: 2px;
+	color: rgb(6, 6, 6);
+	font-size: 1.2em;
+	background-color: rgba(179, 228, 235, 0.6);
+	margin: 0 20px;
+}
+
+
 
 
 

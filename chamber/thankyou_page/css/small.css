@@ -104,13 +104,14 @@ main div {
 }
 
 .holderspot img {
-	
+
 	width: 100%;
 }
 
 .holderspot .spot3 {
 	display: none;
 }
+
 /**End of the advertisments of the right side**/
 
 
@@ -123,11 +124,11 @@ main div {
 }
 
 
-.holder{
+.holder {
 	display: block;
 }
 
-.holder img{
+.holder img {
 	width: 100%;
 }
 
@@ -140,25 +141,25 @@ main div {
 	margin: 0 auto;
 }
 
-.weather .border_above{
+.weather .border_above {
 	border-top: 1px solid rgb(128, 125, 125);
-  padding-top: 30px;
+	padding-top: 30px;
 }
 
-.weather img{
+.weather img {
 	width: 150px;
 	grid-column: 1/2;
 
 }
 
-.weather span{
+.weather span {
 	font-size: 30px;
 	grid-column: 2/3;
 	margin: auto 0;
 
 }
 
-.weather p{
+.weather p {
 	grid-column: 1/3;
 
 }
@@ -166,10 +167,10 @@ main div {
 /*This is the section of join us*/
 .join {
 	display: none;
-	
+
 }
 
-.join p{
+.join p {
 
 	color: #000000;
 
@@ -184,10 +185,10 @@ main div {
 	box-shadow: 3px 3px 10px rgb(54 54 54);
 	border-radius: 5px 5px 5px 5px;
 	width: 70%;
-	
+
 }
 
-.btn_join a{
+.btn_join a {
 	color: white;
 	font-size: 30px;
 	text-decoration: none;
@@ -197,8 +198,9 @@ main div {
 /*This is the section for new release*/
 .news {
 	display: block;
-	
+
 }
+
 
 
 /******************************************************/
@@ -206,18 +208,18 @@ main div {
 /******************************************************/
 
 /*******************MEMBERSHIP SECTION*****************/
-.join_main{
+.join_main {
 	display: block;
 
 }
 
 
-form{
+form {
 	grid-column: 1/2;
 
 }
 
-.memberships{
+.memberships {
 	grid-column: 2/3;
 
 }
@@ -226,7 +228,7 @@ form{
 /*--------------FORM---------------*/
 
 
-form fieldset{
+form fieldset {
 	margin: 2rem 20px;
 	border: 1px solid gray;
 	border-radius: 10px;
@@ -235,7 +237,7 @@ form fieldset{
 	box-shadow: 3px 3px 10px rgb(80, 78, 78)
 }
 
-form legend{
+form legend {
 	color: rgb(252, 252, 252);
 	margin: 0 1rem;
 	padding: 0 .5rem;
@@ -244,14 +246,16 @@ form legend{
 	border: 1px solid black;
 }
 
-form label.top, form div{
+form label.top,
+form div {
 	display: block;
 	padding-top: 1rem;
 	color: red;
 	font-size: .8rem;
 }
 
-form label.top input,form label.top select{
+form label.top input,
+form label.top select {
 	-webkit-appearance: none;
 	display: block;
 	font-size: 1rem;
@@ -264,7 +268,7 @@ form label.top input,form label.top select{
 	background-color: rgba(0, 0, 0, .1);
 }
 
-form label.top textarea{
+form label.top textarea {
 	-webkit-appearance: none;
 	display: block;
 	font-size: 1rem;
@@ -280,7 +284,7 @@ form label.top textarea{
 
 
 
-form input.submitBtn{
+form input.submitBtn {
 	border: none;
 	background-color: #D16919;
 	color: white;
@@ -298,11 +302,11 @@ form label.sbs {
 	color: #32292f;
 }
 
-form label.top input:required{
+form label.top input:required {
 	border-left: red solid 6px;
 }
 
-form label.top input:required:valid{
+form label.top input:required:valid {
 	border-left: green solid 6px;
 }
 
@@ -326,16 +330,16 @@ form label.top input:required:valid{
 }
 
 
-.member_title{
-	
+.member_title {
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 }
 
-.member_title h2{
-	font-size:50px ;
+.member_title h2 {
+	font-size: 50px;
 	color: #d59107;
 	text-shadow: 0 1px 3px #32292f;
 
@@ -346,40 +350,11 @@ form label.top input:required:valid{
 /*******This is the code for PAGE THANKYOU*************/
 /******************************************************/
 
-main{
+main {
 	color: white;
 	background-color: black;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
