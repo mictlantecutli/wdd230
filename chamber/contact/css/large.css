@@ -5,17 +5,17 @@
 }
 
 @media only screen and (min-width: 60em) {
-  
+
 
   /*This is some changes in the header resposive in large view*/
-  #ham{
-    display: none ;
+  #ham {
+    display: none;
   }
 
 
 
   /*This is the navigation menu in complete screen*/
-  header{
+  header {
     display: grid;
     grid-template-columns: 500px 1fr 90px;
 
@@ -23,7 +23,8 @@
 
 
 
-  nav, .responsive{
+  nav,
+  .responsive {
 
     display: grid;
     grid-column: 2/3;
@@ -34,7 +35,7 @@
 
 
 
-   nav ul{
+  nav ul {
     display: flex;
   }
 
@@ -42,44 +43,34 @@
     grid-column: 3/4;
 
     display: flex;
-  
+
   }
 
-  #date{
+  #date {
     grid-column: 1/4;
   }
+
   /**************************************************/
   /***Here starts the main section of contact page***/
   /**************************************************/
 
-  .container_promo{
+  .container_promo {
     display: flex;
     flex-direction: row;
   }
 
 
-  .container ul{
+  .container ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
-  }  
+
+  }
 
 
-  .item_content{
+  .item_content {
     display: flex;
   }
 
-  
-
-  
-
-  
-
-  
-
-
-
-  
 
 
 
@@ -87,16 +78,27 @@
 
 
 
-  
-
- 
-  
-
-
- 
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
