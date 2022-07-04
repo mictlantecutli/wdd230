@@ -290,7 +290,7 @@ nav {
 /*This is the class changed when the user click in ham button*/
 .responsive {
 	display: grid;
-	grid-column: 1/4;
+	grid-column: 1/5;
 	grid-row: 2/3;
 	text-align: center;
 }
