@@ -118,6 +118,10 @@
     grid-column: 1/5;
   }
 
+  .pop {
+    grid-column: 1/5;
+  }
+
 
   /*This code if for the footer of the web page in medium size*/
   .part_1_footer {

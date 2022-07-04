@@ -215,7 +215,7 @@ main {
 /*This code is for the header*/
 header {
 	display: grid;
-	grid-template-columns: 230px 1fr 70px 70px;
+	grid-template-columns: 230px 70px 70px;
 	gap: 20px;
 
 }
@@ -251,7 +251,7 @@ nav {
 }
 
 .socials {
-	grid-column: 3/4;
+	grid-column: 2/3;
 	grid-row: 1;
 	display: flex;
 	justify-content: right;
