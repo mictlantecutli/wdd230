@@ -5,25 +5,26 @@
 }
 
 @media only screen and (min-width: 60em) {
-  
+
 
   /*This is some changes in the header resposive in large view*/
-  #ham{
-    display: none ;
+  #ham {
+    display: none;
   }
 
 
 
   /*This is the navigation menu in complete screen*/
-  header{
+  header {
     display: grid;
-    grid-template-columns: 500px 1fr 90px;
+    grid-template-columns: 370px 1fr 90px;
 
   }
 
 
 
-  nav, .responsive{
+  nav,
+  .responsive {
 
     display: grid;
     grid-column: 2/3;
@@ -33,9 +34,9 @@
   }
 
 
- 
 
-   nav ul{
+
+  nav ul {
     display: flex;
   }
 
@@ -43,14 +44,14 @@
     grid-column: 3/4;
 
     display: flex;
-  
+
   }
 
-  #date{
+  #date {
     grid-column: 1/4;
   }
 
-  .pop{
+  .pop {
     grid-column: 1/4;
   }
 
@@ -62,9 +63,9 @@
 
   }
 
-  
-  
-  .holderspot{
+
+
+  .holderspot {
     grid-column: 3/4;
     grid-row: 1;
 
@@ -74,29 +75,29 @@
 
   }
 
-  .content_demography{
+  .content_demography {
     grid-column: 1/3;
-   
+
   }
 
-  .local_storage{
+  .local_storage {
     text-align: left;
     grid-column: 1/2;
     grid-row: 2/3;
   }
 
-  
 
 
 
 
- 
 
 
 
 
-  
- 
- 
+
+
+
+
+
 
 }

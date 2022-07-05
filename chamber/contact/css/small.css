@@ -260,9 +260,9 @@ form label.top input:required:valid {
 /**************************************************/
 header {
 	display: grid;
-	grid-template-columns: 230px 1fr 70px 70px;
+	grid-template-columns: 1fr 60px 40px;
 	gap: 20px;
-
+	padding-top: 20px;
 }
 
 header img {
@@ -274,7 +274,7 @@ header img {
 
 #ham {
 	display: grid;
-	grid-column: 4/5;
+	grid-column: 3/4;
 	background-color: transparent;
 	align-content: center;
 	border: none;
@@ -290,13 +290,13 @@ nav {
 /*This is the class changed when the user click in ham button*/
 .responsive {
 	display: grid;
-	grid-column: 1/5;
+	grid-column: 1/4;
 	grid-row: 2/3;
 	text-align: center;
 }
 
 .socials {
-	grid-column: 3/4;
+	grid-column: 2/3;
 	grid-row: 1;
 	display: flex;
 	justify-content: right;
@@ -304,7 +304,7 @@ nav {
 
 }
 
-.socials img {
+.socials svg {
 	margin-right: 5px;
 	width: 40px;
 
@@ -314,7 +314,7 @@ nav {
 	padding: 1em;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
-	grid-column: 1/5;
+	grid-column: 1/4;
 	color: #0E53A2;
 	font-size: 1.2em;
 
@@ -374,7 +374,7 @@ nav {
 .pop {
 	display: none;
 	padding: .5em;
-	grid-column: 1/5;
+	grid-column: 1/4;
 	color: #020202;
 	text-align: center;
 	background-color: #b1b0ad;
