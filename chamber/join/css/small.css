@@ -340,6 +340,7 @@ form label.top input:required:valid {
 }
 
 
+
 .member_title {
 
 	display: flex;
@@ -354,12 +355,6 @@ form label.top input:required:valid {
 	text-shadow: 0 1px 3px #32292f;
 
 }
-
-
-
-
-
-
 
 
 /*This code is for the header*/
