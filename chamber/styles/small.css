@@ -56,9 +56,11 @@ main div {
 }
 
 .hero h2 {
+	color: #0E53A2;
+	font-size: 30px;
 	position: absolute;
-	top: 60px;
-	left: 70px;
+	top: 30px;
+	left: 50px;
 }
 
 .hero .btn_main {
@@ -69,8 +71,8 @@ main div {
 	box-shadow: 3px 3px 10px rgb(54 54 54);
 	border-radius: 5px 5px 5px 5px;
 	position: absolute;
-	bottom: 70px;
-	left: 150px;
+	bottom: 40px;
+	left: 70px;
 }
 
 .btn_main:hover {
@@ -164,6 +166,7 @@ main {
 .weather {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	align-items: center;
 
 }
 
@@ -197,6 +200,7 @@ main {
 
 .title_temp {
 	grid-column: 1/2;
+
 
 }
 
@@ -270,13 +274,12 @@ figcaption {
 
 .news p {
 	text-align: right;
-
 	position: absolute;
-	top: 150px;
+	top: 97px;
 	left: 2px;
-	color: rgb(6, 6, 6);
-	font-size: 1.2em;
-	background-color: rgba(179, 228, 235, 0.6);
+	color: black;
+	font-size: 1em;
+	background-color: rgba(179, 228, 235, 0.7);
 	margin: 0 20px;
 }
 

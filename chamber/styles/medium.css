@@ -19,13 +19,20 @@
   }
 
   .hero h2 {
+    font-size: 30px;
     left: 100px;
   }
 
   /**This is the button in the main hero**/
   .hero .btn_main {
-    left: 350px;
+    font-size: 40px;
+    bottom: 50px;
+    left: 250px;
   }
+
+
+
+
 
 
   /**This is the section for news release**/
@@ -78,9 +85,12 @@
   }
 
   .news p {
+    font-size: 1.2em;
 
     top: 250px;
   }
+
+
 
   /*This is the code for the event section*/
   .event {
