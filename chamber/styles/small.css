@@ -71,8 +71,8 @@ main div {
 	box-shadow: 3px 3px 10px rgb(54 54 54);
 	border-radius: 5px 5px 5px 5px;
 	position: absolute;
-	bottom: 40px;
-	left: 70px;
+	bottom: 30px;
+	left: 50px;
 }
 
 .btn_main:hover {
