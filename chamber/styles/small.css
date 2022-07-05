@@ -17,6 +17,7 @@ html {
 
 header,
 footer {
+
 	background-color: white;
 }
 
@@ -163,9 +164,6 @@ main {
 .weather {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	width: 400px;
-	margin: 0 auto;
-	align-items: center;
 
 }
 
@@ -175,7 +173,7 @@ main {
 }
 
 .weather img {
-	width: 90px;
+	width: 100%;
 	grid-column: 1/2;
 
 }
@@ -267,6 +265,7 @@ figcaption {
 	left: 30px;
 	font-size: 1.8em;
 
+
 }
 
 .news p {
@@ -287,8 +286,9 @@ figcaption {
 /*This code is for the header*/
 header {
 	display: grid;
-	grid-template-columns: 230px 1fr 70px 70px;
+	grid-template-columns: 1fr 60px 40px;
 	gap: 20px;
+	padding-top: 20px;
 
 }
 
@@ -301,7 +301,7 @@ header img {
 
 #ham {
 	display: grid;
-	grid-column: 4/5;
+	grid-column: 3/4;
 	background-color: transparent;
 	align-content: center;
 	border: none;
@@ -317,13 +317,13 @@ nav {
 /*This is the class changed when the user click in ham button*/
 .responsive {
 	display: grid;
-	grid-column: 1/5;
+	grid-column: 1/4;
 	grid-row: 2/3;
 	text-align: center;
 }
 
 .socials {
-	grid-column: 3/4;
+	grid-column: 2/3;
 	grid-row: 1;
 	display: flex;
 	justify-content: right;
@@ -342,7 +342,7 @@ nav {
 	padding: 1em;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
-	grid-column: 1/5;
+	grid-column: 1/4;
 	color: #0E53A2;
 	text-align: center;
 	height: 4rem;
@@ -401,7 +401,7 @@ nav {
 	display: none;
 
 	padding: .5em;
-	grid-column: 1/5;
+	grid-column: 1/4;
 	color: #020202;
 	text-align: center;
 	background-color: #b1b0ad;

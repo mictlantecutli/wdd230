@@ -102,7 +102,7 @@
 
   /*This code is for the header*/
   header {
-    grid-template-columns: 400px 1fr 85px 100px;
+    grid-template-columns: 300px 1fr 70px 70px;
     gap: 20px;
   }
 
@@ -112,6 +112,8 @@
 
   #ham {
     grid-column: 4/5;
+    margin: 0;
+
   }
 
   #date {
@@ -121,6 +123,14 @@
   .pop {
     grid-column: 1/5;
   }
+
+
+  .responsive {
+    grid-column: 1/5;
+  }
+
+
+
 
 
   /*This code if for the footer of the web page in medium size*/

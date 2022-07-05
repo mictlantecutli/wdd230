@@ -45,7 +45,6 @@
   }
 
 
-
   /**This is the section for publicity**/
   .holderspot {
     grid-column: 1/4;
@@ -63,9 +62,6 @@
     grid-column: 2/3;
     grid-row: 1/2;
   }
-
-
-
 
 
   .join {
@@ -87,8 +83,6 @@
   }
 
 
-
-
   /*This is the weather section*/
   .weather {
     grid-column: 3/4;
@@ -99,9 +93,12 @@
 
   /*This code is for the header*/
   header {
-    grid-template-columns: 400px 1fr 85px 100px;
+    grid-template-columns: 300px 1fr 70px 70px;
     gap: 20px;
   }
+
+
+
 
   .socials {
     grid-column: 3/4;
@@ -112,6 +109,15 @@
   }
 
   #date {
+    grid-column: 1/5;
+  }
+
+  .pop {
+    grid-column: 1/5;
+  }
+
+
+  .responsive {
     grid-column: 1/5;
   }
 
@@ -133,18 +139,15 @@
   /*******Here I set the style for the companies*********/
   /******************************************************/
 
-  .list section{
+  .list section {
     flex-direction: row;
-   
+
   }
 
-  .list section h2{
+  .list section h2 {
     text-shadow: 3px 3px 10px rgb(32, 13, 1);
     padding-bottom: 0;
   }
-
-  
-
 
 
 
