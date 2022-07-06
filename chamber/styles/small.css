@@ -75,6 +75,11 @@ main div {
 	left: 50px;
 }
 
+
+.btn_main a {
+	text-decoration: none;
+}
+
 .btn_main:hover {
 	background-color: #f0d781;
 	cursor: pointer;
