@@ -11,24 +11,26 @@ body {
   line-height: 40px;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   max-width: 600px;
   margin: 0 auto;
-  
+
 }
 
-h1{
+h1 {
   font-family: 'Alegreya', serif;
 }
 
 
-main hr{
+main hr {
   height: 1px;
   background-color: #888;
   border: 0;
 }
 
-div{
+div {
   text-align: center;
 
 }
@@ -43,7 +45,7 @@ header {
 
 
 
-h2{
+h2 {
   text-shadow: 0 0 20px #777;
 }
 
@@ -52,10 +54,10 @@ header h1 {
   text-align: center;
 }
 
-body ul li{
+body ul li {
   margin-left: 30px;
   line-height: 30px;
-  
+  font-family: "Poppins", sans-serif;
 }
 
 footer {
@@ -67,19 +69,16 @@ footer {
   line-height: 25px;
 }
 
-footer p{
+footer p {
   text-align: center;
 }
 
-footer legend{
+footer legend {
   color: darkorange;
 }
 
-.time_updated{
+.time_updated {
   text-align: center;
   color: darkorange;
 
 }
-
-
-
